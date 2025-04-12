@@ -6,3 +6,10 @@ def test_add():
     assert add(1, 2) == 3
     assert add(1, -1) == 0
     assert add(10, 10) == 20
+    
+def subtract(a, b):
+    return a - b
+
+def test_subtract():
+    assert subtract(10, 5) == 5
+    
